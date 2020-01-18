@@ -1,0 +1,26 @@
+/* footer styles */
+
+#footer-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $dark_gray;
+    color: $light_gray;
+    height: $bar_height;
+    padding: 0 50px;
+    font-size: 13px;
+
+    ul {
+        margin-bottom: 0;
+
+        li {
+            margin-left: 10px;
+            display: inline-block;
+
+            a {
+                color: $light_gray;
+            }
+        }
+    }
+}
+/* end footer style */

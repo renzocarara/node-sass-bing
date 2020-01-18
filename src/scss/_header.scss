@@ -1,0 +1,39 @@
+/* header style */
+#cookie-bar {
+    background-color: $cookie_bar_color;
+    height: $bar_height;
+    line-height: $bar_height;
+    font-size: 13px;
+
+    #cookie-bar-info {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        margin-left: 30px;
+        border: 1px solid $light_gray;
+        border-radius: 50%;
+        margin: 0 10px 0 30px;
+        border: 2px solid #666666;
+        vertical-align: middle;
+
+        i {
+            position: relative;
+            bottom: 11px;
+            left: 7px;
+        }
+    }
+}
+
+#navigation-bar {
+    background-color: trasparent;
+    height: $bar_height;
+
+    a {
+        margin: 0 5px;
+    }
+
+    a i {
+        margin-left: 10px;
+    }
+}
+/* end header style */

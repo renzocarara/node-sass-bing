@@ -1,0 +1,16 @@
+// bootstarp 4.4.1
+@import '~bootstrap/scss/bootstrap.scss'; //
+// fontawesome 5.12.0
+$fa-font-path: 'fontawesome/fonts';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/regular.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+@import '~@fortawesome/fontawesome-free/scss/brands.scss'; //
+// my scss
+@import '_reset.scss';
+@import '_variables.scss';
+@import '_bootstrap_overrides';
+@import '_common.scss';
+@import '_header.scss';
+@import '_main.scss';
+@import '_footer.scss';
